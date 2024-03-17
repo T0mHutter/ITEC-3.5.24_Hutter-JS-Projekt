@@ -1,0 +1,123 @@
+body{
+
+  text-align: center;
+  font-family: sans-serif;
+  min-width: 1040px;
+  
+}
+h1{
+  position: relative;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+button{
+  border-style: none;
+  border-radius: 05px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.slider {
+  appearance: none;
+  height: 6px;
+  border-radius: 5px;  
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%; 
+  background: #57aa04;
+  cursor: pointer;
+}
+
+
+p{
+  margin: 10px;
+  font-weight: bold;
+}
+
+#start{
+  background-color: rgb(89, 178, 89);
+  padding: 7px;
+}
+#stop{
+  background-color: rgb(255, 73, 73);
+  padding: 7px;
+}
+
+#notbetrieb{
+  background-color: rgb(255, 210, 75);
+  padding: 7px;
+}
+
+#image{
+  margin-top: 10px;
+  position: relative;
+  align-items: center;
+
+}
+
+.light{
+  width:40px;
+  height: 40px;
+  border-radius: 25px;
+  background-color: black;
+}
+
+#lane1{
+  position: absolute;
+  top: 241px;
+  right: 40vw;
+}
+
+#lane2{
+  position: absolute;
+  top: 328px;
+  right: 40vw;
+}
+
+#lane3{
+  position: absolute;
+  top: 490px;
+  right: 43.8vw;
+}
+
+#lane4{
+  position: absolute;
+  top: 490px;
+  right: 48.4vw;
+}
+
+#lane5{
+  position: absolute;
+  top: 420px;
+  right: 57vw;
+}
+
+#lane6{
+  position: absolute;
+  top: 328px;
+  right: 57vw;
+}
+
+#lane7{
+  position: absolute;
+  top: 168px;
+  right: 53.1vw;
+}
+
+#lane8{
+  position: absolute;
+  top: 168px;
+  right: 48.5vw;
+}

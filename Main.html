@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ampel Anlage</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1 id="mainHeader">Ampel Anlage</h1>
+
+    <button id="start">Starte Simualation</button>
+    <button id="stop">Stop</button>
+    <button id="notbetrieb">Notbetrieb</button>
+    <p>Animations Geschwindigkeit:</p>
+    <div class="slidecontainer">
+      <input type="range" min="1" max="10" value="1" class="slider" id="slider" onchange="">
+    </div>
+
+    <div id="image"> <img src="mp.jpg" alt="Modell der Strasse">
+      
+    <div class="light" id="lane1"></div>
+    <div class="light" id="lane2"></div>
+    <div class="light" id="lane3"></div>
+    <div class="light" id="lane4"></div>
+    <div class="light" id="lane5"></div>
+    <div class="light" id="lane6"></div>
+    <div class="light" id="lane7"></div>
+    <div class="light" id="lane8"></div>
+
+    </div>
+
+  </body>
+</html>
